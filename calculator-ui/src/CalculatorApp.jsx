@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
-import { Display } from "./components/Display";
-import { ButtonPanel } from "./components/ButtonPanel";
+import { Display } from "./components/Display/Display";
+import { ButtonPanel } from "./components/ButtonPanel/ButtonPanel";
 
 import "./CalculatorApp.css";
 
 export const CalculatorApp = () => {
 
-  const [value, setValue] = useState("");
-
   return (
-      <section id="calculator">
-          <Display value={ value } changeValue={ setValue } />
-          <ButtonPanel />
+      <section>
+          <div className="calculator">
+            <Display />
+            <ButtonPanel />
+          </div>
       </section>
   )
 }

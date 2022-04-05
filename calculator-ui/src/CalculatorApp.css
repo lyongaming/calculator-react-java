@@ -1,17 +1,9 @@
-#calculator {
+.calculator {
+    width: 18%;
+    height: 70vh;
     display: grid;
-    grid-template-rows: 15% 80%;
-    row-gap: 10px;
-    width: 350px;
-    height: 500px;
-    background-color: hsl(0, 59%, 30%);
-    border-radius: 0 20px 20px 0;
-    padding: 20px 10px 20px 10px;
-}
-
-#calculator__display {
-    font-size: larger;
-    background-color: hsl(60, 59%, 45%);
-    text-align: end;
-    padding-right: 10px;
+    grid-template-rows: 0.7fr 1fr;
+    background-image: linear-gradient(to bottom right, #252930, #090E0F);
+    border-radius: 15px;
+    overflow: hidden;
 }

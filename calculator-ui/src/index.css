@@ -4,12 +4,11 @@
   margin: 0;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
+section {
+  background-image: linear-gradient(to bottom right, #2666C7, #8EE8FB);
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(103, 50%, 61%);
-  font-size: larger;
 }
